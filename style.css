@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font: 40px;
+}
+h3{
+    position: relative; 
+    margin-bottom: 4rem;
+}
+.top-navbar a{
+    text-align: center;
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 16px 18px;
+    color: black;
+}    
+.top-navbar{
+    overflow: hidden;
+    background-color:lightseagreen;
+}
+.orange-highlight{
+    color: orangered;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 60%;
+}
+section{
+    height: 500px;
+    padding-bottom: 120px;
+}
+.top-banner{
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(90deg,red,tomato);
+    padding: 20px 45px;
+    border-radius: 10px;
+    color: azure;
+    font-weight: 800;
+}
+.single-experiance{
+box-shadow: 5px 5px 5px gray;           
+border-radius: 5px;
+height: 50%;
+background-color:white;
+}
+#power-gym{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;  
+}
+#creative-agency{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#hard-rock{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
